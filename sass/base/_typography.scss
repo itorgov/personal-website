@@ -17,6 +17,13 @@ body {
   margin-bottom: 4rem;
 }
 
+.header-secondary {
+  color: var(--color-text-secondary);
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
 .paragraph {
   @supports (hyphens: auto) or (-webkit-hyphens: auto) or (-moz-hyphens: auto) {
     -webkit-hyphens: auto;
