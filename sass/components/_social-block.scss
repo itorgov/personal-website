@@ -1,0 +1,26 @@
+.social-block {
+  list-style: none;
+  color: var(--color-white-transparent);
+  display: flex;
+  justify-content: space-between;
+
+  &__link {
+    &:link,
+    &:visited {
+      color: inherit;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+      color: var(--color-primary);
+    }
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    fill: currentColor;
+  }
+}

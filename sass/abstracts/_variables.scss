@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
+
+:root {
+  --color-text-primary: #a2a2a2;
+
+  --color-primary: #49bf9d;
+
+  --color-white: #fff;
+  --color-white-transparent: rgba(255, 255, 255, 0.5);
+  --color-black: #000;
+}

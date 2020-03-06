@@ -1,3 +1,27 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site.
 // -----------------------------------------------------------------------------
+
+.footer {
+  align-self: stretch;
+
+  &__copyright {
+    font-size: 1.4rem;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.2s;
+      border-bottom: 1px dotted var(--color-white-transparent);
+    }
+
+    &:hover,
+    &:active {
+      color: var(--color-primary);
+      border-bottom: 0;
+    }
+  }
+}

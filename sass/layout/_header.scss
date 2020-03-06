@@ -1,3 +1,33 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site.
 // -----------------------------------------------------------------------------
+
+.header {
+  align-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &__photo-box {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  &__text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-white-transparent);
+
+    span {
+      color: var(--color-white);
+    }
+  }
+}
