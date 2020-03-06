@@ -9,3 +9,18 @@ body {
   font-weight: 400;
   line-height: 1.75;
 }
+
+.header-primary {
+  color: var(--color-text-secondary);
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.paragraph {
+  @supports (hyphens: auto) or (-webkit-hyphens: auto) or (-moz-hyphens: auto) {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}

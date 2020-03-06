@@ -1,3 +1,22 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    border: solid 3px var(--color-grey);
+    border-radius: 3px;
+    color: var(--color-text-secondary);
+    padding: 1rem 4rem;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover,
+    &:active {
+      color: var(--color-primary);
+      border: solid 3px var(--color-primary);
+    }
+  }
+}
