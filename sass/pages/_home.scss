@@ -2,8 +2,13 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.section-work {
-  margin-top: 6rem;
+.section-about {
+  padding-bottom: 4rem;
+}
+
+.section-work,
+.section-contact {
+  margin-top: 4rem;
   border-top: 2px solid var(--color-grey);
   padding: 4rem 0;
 }

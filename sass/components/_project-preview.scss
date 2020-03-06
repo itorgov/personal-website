@@ -1,8 +1,12 @@
 .project-preview {
-  flex: 0 0 47%;
+  flex: 0 0 calc((100% - 5rem) / 2);
 
-  &:not(:nth-last-child(-n+2)) {
-      margin-bottom: 3rem;
+  &:nth-child(odd) {
+    margin-right: 5rem;
+  }
+
+  &:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 3rem;
   }
 
   &__image-box {
