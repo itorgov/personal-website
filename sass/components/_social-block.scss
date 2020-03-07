@@ -10,6 +10,10 @@
     @media only screen and (max-width: $bp-medium) {
       margin-right: 2rem;
     }
+
+    @media only screen and (min-width: $bp-big) {
+      margin-right: 1.5rem;
+    }
   }
 
   &__link {
@@ -30,5 +34,9 @@
     width: 3rem;
     height: 3rem;
     fill: currentColor;
+  }
+
+  @media only screen and (min-width: $bp-big) {
+    justify-content: flex-end;
   }
 }

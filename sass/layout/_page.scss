@@ -13,4 +13,10 @@
     width: 100%;
     padding: 3rem;
   }
+
+  @media only screen and (min-width: $bp-big) {
+    width: 75%;
+    max-width: 120rem;
+    margin-left: 25%;
+  }
 }
