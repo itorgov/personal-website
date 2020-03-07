@@ -4,6 +4,10 @@
 
 .section-about {
   padding-bottom: 4rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding-bottom: 2rem;
+  }
 }
 
 .section-work,
@@ -11,6 +15,11 @@
   margin-top: 4rem;
   border-top: 2px solid var(--color-grey);
   padding: 4rem 0;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
 }
 
 .projects {
