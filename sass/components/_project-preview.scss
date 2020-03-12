@@ -1,18 +1,4 @@
 .project-preview {
-  flex: 0 0 calc((100% - 5rem) / 2);
-
-  &:nth-child(odd) {
-    margin-right: 5rem;
-
-    @media only screen and (max-width: $bp-small) {
-      margin-right: 0;
-    }
-  }
-
-  &:not(:nth-last-child(-n + 2)) {
-    margin-bottom: 3rem;
-  }
-
   &__image-box {
     border-radius: 0.5rem;
     overflow: hidden;
@@ -52,13 +38,5 @@
 
   &__image-box:hover > &__image-caption {
     opacity: 1;
-  }
-
-  @media only screen and (max-width: $bp-small) {
-    flex: 0 0 100%;
-
-    &:not(:last-child) {
-      margin-bottom: 3rem;
-    }
   }
 }

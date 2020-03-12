@@ -23,8 +23,9 @@
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin-bottom: 4rem;
+
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
 }
