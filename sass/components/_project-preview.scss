@@ -19,6 +19,21 @@
 
   &__description {
     font-size: 1.4rem;
+
+    a {
+      &:link,
+      &:visited {
+        text-decoration-style: dotted;
+        color: currentColor;
+        transition: color 0.2s;
+      }
+
+      &:hover,
+      &:active {
+        color: var(--color-primary);
+        text-decoration: none;
+      }
+    }
   }
 
   &__image-caption {
