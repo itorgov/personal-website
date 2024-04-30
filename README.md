@@ -1,3 +1,3 @@
-# My own website
+# My personal website
 
-This is source code of my own website - https://itorgov.com.
+This is the source code of my personal website - https://itorgov.com.
