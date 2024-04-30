@@ -3,16 +3,16 @@
   "version": "2.0.0",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass sass/main.scss css/style.css -w",
+    "watch": "node-sass src/sass/main.scss dist/css/style.css -w",
     "devserver": "live-server --ignore=**/.git/**",
     "start": "npm-run-all --parallel devserver watch",
-    "compile": "node-sass sass/main.scss css/style.compiled.css",
-    "prefix": "postcss --use autoprefixer -b 'last 10 versions' css/style.compiled.css -o css/style.prefixed.css",
-    "compress": "node-sass css/style.prefixed.css css/style.css --output-style compressed",
+    "compile": "node-sass src/sass/main.scss dist/css/style.compiled.css",
+    "prefix": "postcss --use autoprefixer -b 'last 10 versions' dist/css/style.compiled.css -o dist/css/style.prefixed.css",
+    "compress": "node-sass dist/css/style.prefixed.css dist/css/style.css --output-style compressed",
     "build": "npm-run-all compile prefix compress"
   },
-  "repository": "git@github.com:itorgov/my-website.git",
-  "author": "Ivan Torgov <likecod@gmail.com> (https://itorgov.com)",
+  "repository": "git@github.com:itorgov/personal-website.git",
+  "author": "Ivan Torgov <ivtorgov@gmail.com> (https://itorgov.com)",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.7.5",
